@@ -1,0 +1,22 @@
+# Uni
+
+> Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta, Prateek Jindal, and Laxmikant Vyas. It delivers app-first consumer credit products in India — including the Uni Pay 1/3rd card, Pay Half, and the GoldX credit card (earn 24K gold on spends). Backed by Lightspeed Venture Partners and General Catalyst. Uni does not publish a public developer portal or API.
+
+## Company
+
+- [Website](https://www.uni.cards/): Uni Cards homepage (uni.club redirects here)
+- [Blog](https://www.uni.cards/blog): Company blog
+- [FAQ / Support](https://www.uni.cards/faq): Help and frequently asked questions
+- [Terms & Privacy (PDF)](https://www.uni.cards/docs/Uni_Terms_and_Conditions_and_Privacy_Policy.pdf): Terms and conditions and privacy policy
+- [Privacy Policy](https://www.uni.cards/privacy-policy-main): Privacy policy page
+- [NBFC Terms](https://www.uni.cards/nbfc-terms): Lending-partner (NBFC) terms
+
+## Products
+
+- [Uni Pay 1/3rd](https://www.uni.cards/pay-one-third): Split spends into three parts
+- [Pay Half](https://www.uni.cards/pay-half): Split spends in half
+- [Apply](https://www.uni.cards/apply): Card application
+
+## APIs
+
+Uni does not currently publish a public API, developer portal, or API documentation. This profile is maintained by API Evangelist as part of the APIs.io network; see the machine-readable index at https://raw.githubusercontent.com/api-evangelist/uni/refs/heads/main/apis.yml

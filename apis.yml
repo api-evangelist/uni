@@ -1,8 +1,10 @@
 aid: uni
 name: Uni
-description: Uni is a company surfaced as a portfolio company of general-catalyst, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta,
+  Prateek Jindal, and Laxmikant Vyas that delivers clutter-breaking credit products to consumers
+  in India, including pay-later style credit cards and flexible repayment products. Uni is backed
+  by Lightspeed Venture Partners and General Catalyst. The company is a consumer-facing app-first
+  business and does not currently publish a public developer portal or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/uni/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +13,64 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://webcdn.uni.club/images/favicon-48.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- FinTech
+- Credit
+- Credit Cards
+- Consumer Finance
+- Payments
+- India
 apis: []
+common:
+- type: DomainSecurity
+  url: security/uni-domain-security.yml
+- name: Website
+  type: Website
+  url: https://www.uni.cards/
+- name: Blog
+  type: Blog
+  url: https://www.uni.cards/blog
+- name: Support (FAQ)
+  type: Support
+  url: https://www.uni.cards/faq
+- name: Terms and Conditions + Privacy Policy (PDF)
+  type: TermsOfService
+  url: https://www.uni.cards/docs/Uni_Terms_and_Conditions_and_Privacy_Policy.pdf
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.uni.cards/privacy-policy-main
+- name: Sign Up (card application)
+  type: SignUp
+  url: https://www.uni.cards/apply
+- name: GitHub Organization
+  type: GitHubOrganization
+  url: https://github.com/Uni-Cards
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/uni-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

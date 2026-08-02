@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.uni.cards/ (canonical host; uni.club 301s here)
+host: https://www.uni.cards
+notes: >-
+  uni.club and www.uni.club permanently redirect (301) to www.uni.cards. No
+  /.well-known/ discovery documents are published — every probe returned 404.
+  Wayback Machine snapshots that show 200 for these paths captured the site's
+  former SPA catch-all (HTML homepage returned for any path), not real
+  documents. HTML pages on the host sit behind a Cloudflare browser challenge
+  (403 to non-browser clients); robots.txt and published PDFs return 200.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
