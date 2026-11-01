@@ -64,8 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta, Prateek Jindal, and Laxmikant Vyas, delivering app-first credit products in India — the Uni Pay 1/3rd card, Pay Half, and the GoldX credit card. Website: [uni.cards](https://www.uni.cards/) (uni.club redirects there).
+Uni (Uni Cards) is an Indian consumer credit fintech founded in 2020 by Nitin Gupta, Prateek Jindal, and Laxmikant Vyas that delivers clutter-breaking credit products to consumers in India, including pay-later style credit cards and flexible repayment products. Uni is backed by Lightspeed Venture Partners and General Catalyst. The company is a consumer-facing app-first business and does not currently publish a public developer portal or API surface.
 
-Backed by: general-catalyst, lightspeed-venture-partners
+**Areas:** Company · Fintech · Credit · Credit Cards · Consumer Finance · Payments · India
 
-Uni does not currently publish a public developer portal, API documentation, or client SDKs. This profile carries the company identity, domain-security probe results, and site pointers gathered by the API Evangelist enrichment pipeline.
+## Uni on APIs.io
+
+Everything profiled for Uni is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/uni/](https://apis.io/providers/uni/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Uni Domain Security](https://apis.io/security/uni/uni-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.uni.cards/)
+- [Sign up](https://www.uni.cards/apply)
+- [Support](https://www.uni.cards/faq)
+- [Blog](https://www.uni.cards/blog)
+- [Terms of service](https://www.uni.cards/docs/Uni_Terms_and_Conditions_and_Privacy_Policy.pdf)
+- [Privacy policy](https://www.uni.cards/privacy-policy-main)
+- [GitHub](https://github.com/Uni-Cards)
+
+## API Evangelist rating
+
+**Kin Score 13.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/uni/](https://apis.io/providers/uni/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Uni: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/uni/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
